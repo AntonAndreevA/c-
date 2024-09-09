@@ -8,7 +8,7 @@
 #define __INTRODUCTION_HPP__
 
 #include <string>
-
+// новые изменения
 //{
 class introduction
 {

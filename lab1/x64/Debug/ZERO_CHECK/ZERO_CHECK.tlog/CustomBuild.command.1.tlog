@@ -1,0 +1,10 @@
+^H:\LABS\MASTER-PROGRAMMING-TASK\LAB1\CMAKEFILES\BAE1732525D5C6292D094F0E08F0C884\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/labs/master-programming-task/lab1 -BH:/labs/master-programming-task/lab1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/labs/master-programming-task/lab1/lab1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

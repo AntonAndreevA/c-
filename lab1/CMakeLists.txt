@@ -1,8 +1,15 @@
-return() # Remove this line
-add_library(introduction INTERFACE)
-target_include_directories(introduction INTERFACE include)
+cmake_minimum_required(VERSION 3.29)
+project(lab1)
 
-file(GLOB TESTS tests/*.cpp)
-add_executable(tests_introduction ${TESTS})
-target_link_libraries(tests_introduction introduction Catch2::Catch2WithMain)
-catch_discover_tests(tests_introduction)
+#file(GLOB TESTS tests/*.cpp)
+
+include_directories(include)
+add_executable(lab1 new_main.cpp)
+target_include_directories(${PROJECT_NAME} PRIVATE avg_dir)
+add_subdirectory(avg_dir)
+target_link_libraries(${PROJECT_NAME} av_st)
+
+install(TARGETS av_st DESTINATION lib)
+install(TARGETS av_st DESTINATION hpp)
+
+return()

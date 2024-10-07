@@ -1,0 +1,10 @@
+^H:\LABS\MASTER-PROGRAMMING-TASK\LAB1\AVG_DIR\CMAKEFILES\371E1251EC9D7696D4DAF5873B2DB78E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/labs/master-programming-task/lab1/avg_dir -BH:/labs/master-programming-task/lab1/avg_dir --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/labs/master-programming-task/lab1/avg_dir/avg.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

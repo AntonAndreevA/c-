@@ -13,19 +13,19 @@
 class introduction
 {
 public:
-    std::string_view name() const
+    std::string name() const
     {
-        return Anton
+        return "Anton";
     }
 
-    std::string_view surename() const
+    std::string surename() const
     {
-        return Andreev
+        return "Andreev";
     }
 
     std::string fullname() const
     {
-        return Anon_Andreev
+        return "Andreev";
     }
 
 private:

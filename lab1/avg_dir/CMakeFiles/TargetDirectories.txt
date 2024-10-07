@@ -1,0 +1,4 @@
+H:/labs/master-programming-task/lab1/avg_dir/CMakeFiles/av_sh.dir
+H:/labs/master-programming-task/lab1/avg_dir/CMakeFiles/av_st.dir
+H:/labs/master-programming-task/lab1/avg_dir/CMakeFiles/ALL_BUILD.dir
+H:/labs/master-programming-task/lab1/avg_dir/CMakeFiles/ZERO_CHECK.dir

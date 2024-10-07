@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29)
+project(avg)
+
+add_library(av_sh SHARED avg_func.cpp)
+add_library(av_st STATIC avg_func.cpp)
+
+return() # Remove this line
